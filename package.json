@@ -1,26 +1,30 @@
 {
-  "name": "react-component-module-example",
-  "version": "1.0.0",
-  "description": "A example react component module for NPM",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dickyindra/react-component-module-example.git"
-  },
-  "author": "Dicky Indra Asmara",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dickyindra/react-component-module-example/issues"
-  },
-  "homepage": "https://github.com/dickyindra/react-component-module-example#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.8.3",
-    "@babel/core": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
-    "@babel/preset-react": "^7.8.3",
-    "prop-types": "^15.7.2"
-  }
+    "name": "react-component-module-example",
+    "version": "1.0.0",
+    "description": "A example react component module for NPM",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dickyindra/react-component-module-example.git"
+    },
+    "author": "Dicky Indra Asmara",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dickyindra/react-component-module-example/issues"
+    },
+    "homepage": "https://github.com/dickyindra/react-component-module-example#readme",
+    "peerDependencies": {
+        "react": "^16.6.1",
+        "react-dom": "^16.6.3"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.3",
+        "@babel/core": "^7.8.3",
+        "@babel/preset-env": "^7.8.3",
+        "@babel/preset-react": "^7.8.3",
+        "prop-types": "^15.7.2"
+    }
 }
