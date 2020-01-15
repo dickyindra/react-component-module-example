@@ -2,9 +2,9 @@
     "name": "react-component-module-example",
     "version": "1.0.0",
     "description": "A example react component module for NPM",
-    "main": "index.js",
+    "main": "./lib/index.js",
     "scripts": {
-        "build": "babel src --out-file index.js",
+        "build": "babel src --out-file ./lib/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
