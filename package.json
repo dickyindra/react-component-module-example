@@ -4,6 +4,7 @@
     "description": "A example react component module for NPM",
     "main": "index.js",
     "scripts": {
+        "build": "babel src --out-file index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
