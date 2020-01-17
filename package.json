@@ -4,6 +4,7 @@
     "description": "A example react component module for NPM",
     "main": "./lib/index.js",
     "scripts": {
+        "storybook": "start-storybook",
         "build": "babel src --out-file ./lib/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -26,6 +27,8 @@
         "@babel/core": "^7.8.3",
         "@babel/preset-env": "^7.8.3",
         "@babel/preset-react": "^7.8.3",
+        "@storybook/react": "^5.3.3",
+        "babel-loader": "^8.0.6",
         "prop-types": "^15.7.2"
     }
 }
