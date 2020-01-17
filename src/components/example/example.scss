@@ -1,3 +1,39 @@
+$example-padding: 20px;
+$example-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+$example-border-radius: 10px;
+
+* {
+    font-family: sans-serif;
+}
+
 .example {
-    background: red;
+    padding: $example-padding;
+    box-shadow: $example-box-shadow;
+    border-radius: $example-border-radius;
+
+    display: flex;
+    align-items: center;
+
+    .example-avatar {
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .example-detail {
+        display: flex;
+        flex-direction: column;
+
+        padding-left: 20px;
+
+        .example-detail-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .example-detail-message {
+            font-size: 14px;
+            color: #888888;
+            margin-top: 5px;
+        }
+    }
 }
