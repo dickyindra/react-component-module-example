@@ -1,20 +1,14 @@
 const path = require("path")
+const merge = require("webpack-merge")
 
-module.exports = {
+const baseConfig = require("./webpack.common.js")
+
+module.exports = merge(baseConfig, {
     mode: "production",
     entry: "./src/index.js",
     output: {
         path: path.resolve("lib"),
         filename: "index.js",
         libraryTarget: "commonjs2"
-    },
-    module: {
-        rules: [
-            {
-                test: /\.jsx?$/,
-                exclude: /(node_modules)/,
-                use: "babel-loader"
-            }
-        ]
     }
-}
+})
